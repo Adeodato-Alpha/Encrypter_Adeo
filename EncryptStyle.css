@@ -1,4 +1,34 @@
-canvas{
-    background-color: rgb(177, 135, 44); 
-
+html, body {
+    margin: 0px 0px;
+    height: 100%;
+}
+#pantalla{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(85, 83, 83);
+}
+#scanlines, #bezel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+#Encriptador{
+    font-family: VT323;
+    color: rgb(184, 122, 7);
+    padding: 50px;
+    font-size: 35px;
+}
+.ventana{
+    display: inline-block;
+    background-color: aliceblue;
+    width: auto;
+}
+#first-window{
+    padding-left: 10px;
+}
+#second-window{
+   padding-left:15% ;
 }
